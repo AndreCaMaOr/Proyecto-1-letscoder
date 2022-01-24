@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/style_propio.css">
+    <title>Inscribete</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="menu">
+            <img class="logo" src="/images/letscoder-square.jpeg" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="home1.html">Home</a></li>
+                    <li><a href="cursos.html"> Cursos</a></li>
+                    <li><a href="tablas.html"> Alumnos</a></li>
+                    <li><a href="conocenos.html"> Conócenos</a></li>
+                    <li><a href="contacto.html"> Contacto </a></li>
+                    <li><a href="inscribete.html"> Inscribete</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div>
+        <div>
+            <H2> FORMULARIO DE INSCRIPCIÓN A NUESTROS CURSOS</H2>
+        </div>
+        <form action="Felicidades.html">
+            <fieldset>
+                <legend> Datos Personales</legend>
+                <label for="Nombre"> Nombre* </label> <input type="text" name="nombre" placeholder="Tu nombre" required
+                    pattern="a-z" required>
+                <label for="Apellido"> Apellido* </label> <input type="text" name="Apellido" placeholder="Tu apellido"
+                    required pattern="a-z" required> <br>
+                <label for="Edad"> Edad*</label> <input type="number" required pattern="0-9" min=10 max=99>
+                <label for="fecha"> Fecha de Nacimiento</label> <input type="date"> <br>
+                <label for="Dirección">Dirección</label> <input type="text"> <br>
+                <label for="Población">Población*</label> <input type="text">
+                <label for="Comunidad Autonoma">Comunidad Autonoma</label> <input type="text">
+                <label for="CodPostal">Codigo Postal</label> <input type="number"> <br>
+                <label for="Email">Correo Electronico*</label> <input type="email" required>
+                <label for="telefono">Telefono*</label> <input type="tel" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>¿Cómo nos Conociste?</legend>
+                <label for="tv">A través de la TV</label> <input type="checkbox">
+                <label for="Google">A través de Google</label> <input type="checkbox"><br>
+                <label for="rrss">A través de Redes Sociales</label> <input type="checkbox">
+                <label for="otros">Otros</label> <input type="checkbox">
+            </fieldset>
+            <fieldset>
+                <legend>Tienes conocimientos previos</legend>
+                <label for="si">Si</label> <input type="checkbox">
+                <label for="especifica">Que conocimientos tienes?</label> <input type="">
+                <label for="no">No</label> <input type="checkbox">
+
+            </fieldset>
+        </form>
+    </div>
+
+
+    <div class="contactame">
+        <button><a href="/contacto.html"> >>> Contactanos <<< </a></button>
+
+    </div>
 </body>
+
 </html>
