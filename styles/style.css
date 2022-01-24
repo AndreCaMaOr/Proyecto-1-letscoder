@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+
+.div imagenTop {
+margin-top: 50px;
+height: 100px;
+width: 800px;
+text-align: center;
+
+}
+header {
+    background: url("../images/background-image1.jpg");
+    margin-top: 20px;
+
+}
+
+
+
+
+.logo {
+position: relative;
+top: -100px;
+right: -590px;
+margin-top: 50px;
+  
+
+
+}
+
+.cabecera h1{
+margin-left: 550px;
+font-size: 50px;
+color: rgb(24, 24, 135)
+
+}
+
+nav li{
+    display: inline-block;
+    background-color: gray;
+    
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.fecha div{
+    box-sizing: content-box;
+    text-align: center;
+    display:inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+    
+}
+
+
+.fecha .negrita {
+ font-size: 40px;
+ font-weight: 800;
+
+}
+
+.fecha div span{
+font-weight: 800;
+
+}
+
+.centro {
+    text-align: center;
+    list-style: none;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+
+.fecha .text-centrado {
+    height: 500px;
+    width: 500px;
+    text-align: center;
+}
+.titulo {
+
+text-align: center;
+
+}
+
+
+
+.div centrado {
+display: inline-block;
+    margin-left: 80px;
+    margin-right:40px;
+}
+
+.redonda{
+    border-radius: 50%;
+}
+
+.caja-mentores {
+    margin-top: 40px;
+width: 80%;
+}
+
+.caja-mentores .mentor {
+    display: table-cell;
+    margin: 80px;
+}
+
+.caja-mentores .mentor p{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align:center;
+
+}
+.caja-mentores .mentor img{
+    margin-left: 20px;
+    
+}
+
+ .caja-mentores .mentor {
+    margin-top: 10px;
+    margin-left: 120px;
+    text-align: center;
+}
