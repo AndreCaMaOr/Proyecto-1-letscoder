@@ -9,7 +9,7 @@
     <title>Inscribete</title>
 </head>
 
-<body>
+<body class="fondo3">
     <header>
         <div class="menu">
             <img class="logo" src="/images/letscoder-square.jpeg" alt="logo">
@@ -27,47 +27,68 @@
         </div>
     </header>
 
-    <div>
-        <div>
+    <div class="formupadre">
+        <div class="titulo">
             <H2> FORMULARIO DE INSCRIPCIÓN A NUESTROS CURSOS</H2>
         </div>
         <form action="Felicidades.html">
-            <fieldset>
+            <div class= "datospers">
                 <legend> Datos Personales</legend>
-                <label for="Nombre"> Nombre* </label> <input type="text" name="nombre" placeholder="Tu nombre" required
-                    pattern="a-z" required>
+                <label for="Nombre"> Nombre* </label> <input type="text" name="nombre" placeholder="Tu nombre" required>
                 <label for="Apellido"> Apellido* </label> <input type="text" name="Apellido" placeholder="Tu apellido"
-                    required pattern="a-z" required> <br>
-                <label for="Edad"> Edad*</label> <input type="number" required pattern="0-9" min=10 max=99>
+                    required> <br>
+                <label for="Edad"> Edad*</label> <input type="number" required pattern="0-9" min=10 max=99 required>
                 <label for="fecha"> Fecha de Nacimiento</label> <input type="date"> <br>
                 <label for="Dirección">Dirección</label> <input type="text"> <br>
-                <label for="Población">Población*</label> <input type="text">
-                <label for="Comunidad Autonoma">Comunidad Autonoma</label> <input type="text">
+                <label for="Población">Población*</label> <input type="text" required>
+                <label for="Comunidad Autonoma">Comunidad Autonoma</label> <select name="comunidad autonoma"
+                    id="comunidad autonoma">
+                    <option value="select"> Selecciona</option>
+                    <option value="1"> Andalucía</option>
+                    <option value="2"> Aragón</option>
+                    <option value="3"> Islas Baleares</option>
+                    <option value="4"> Canarias</option>
+                    <option value="5"> Cantabria</option>
+                    <option value="6"> Castilla-La Mancha</option>
+                    <option value="7"> Castilla y León</option>
+                    <option value="8"> Cataluña</option>
+                    <option value="9"> Comunidad de Madrid</option>
+                    <option value="10"> Comunidad Foral de Navarra</option>
+                    <option value="11"> Comunidad Valenciana</option>
+                    <option value="12"> Extremadura</option>
+                    <option value="13"> Galicia</option>
+                    <option value="14"> País Vasco</option>
+                    <option value="15"> Principado de Asturias</option>
+                    <option value="16"> Región de Murcia</option>
+                    <option value="17"> La Rioja</option>
+                </select>
                 <label for="CodPostal">Codigo Postal</label> <input type="number"> <br>
                 <label for="Email">Correo Electronico*</label> <input type="email" required>
                 <label for="telefono">Telefono*</label> <input type="tel" required>
-            </fieldset>
-
-            <fieldset>
-                <legend>¿Cómo nos Conociste?</legend>
+            </div>
+            <br>
+            <div class="info">
+                <legend>¿Cómo nos Conociste?</legend><br>
                 <label for="tv">A través de la TV</label> <input type="checkbox">
                 <label for="Google">A través de Google</label> <input type="checkbox"><br>
                 <label for="rrss">A través de Redes Sociales</label> <input type="checkbox">
-                <label for="otros">Otros</label> <input type="checkbox">
-            </fieldset>
-            <fieldset>
+                <label for="otros">Otros</label> <input type="checkbox" checked>
+            </div>
+            <br>
+            <div class=info>
                 <legend>Tienes conocimientos previos</legend>
                 <label for="si">Si</label> <input type="checkbox">
-                <label for="especifica">Que conocimientos tienes?</label> <input type="">
+                <br><label for="especifica">Que conocimientos tienes?</label> <textarea></textarea> <br>
                 <label for="no">No</label> <input type="checkbox">
 
-            </fieldset>
+            </div>
+            <br>
+            <input type="submit" class="enviar">
         </form>
     </div>
 
-
     <div class="contactame">
-        <button><a href="/contacto.html"> >>> Contactanos <<< </a></button>
+        <button><a href="/contacto.html"> Contactanos </a></button>
 
     </div>
 </body>

@@ -72,21 +72,42 @@ nav ul li a{
     font-size: 60px;
     margin-top: 10%;
     margin-bottom: 10px;   
+    text-align: center;
 }
 
 .box2{
     font-size: 20px;
     font-style: italic;
     text-align:center;
-    margin-bottom: 20px;   
+    margin-bottom: 20px; 
+    background-color: aliceblue;  
 }
 
 .info{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-weight: bold;
     color:white;
     font-size: 30px; 
+     
+    
+}
+.info button{
+    margin-left: 240px; /*80px en pantalla pequeña*/
+    height: 30px;
+  
+}
+@media only screen and(min-width:600px) { 
+    .info button {
+        margin-left: 80px;
+    }     
+}  
+
+
+.info button a{
+    text-decoration: none;
+    color: black;
+   
 }
 
 img{
@@ -103,8 +124,8 @@ img{
 }
 
 .contactame button{
-    height: 50px;
-    width: 220px;
+    height: 65px;
+    width: 130px;
     background-color: chartreuse;
     border-radius: 30%;
     border: 3px solid gray;
@@ -304,3 +325,59 @@ dd{
 
 /*formulario*/
 
+.formupadre{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 60%;
+    margin-bottom: 50px;
+background-color: gainsboro;
+    border-color: darkblue solid bold;
+    margin-right: 60%;
+    padding: 10px;
+    border-radius: 2%;
+    
+}
+
+form .datospers label,
+form .datospers input{
+    margin-top: 10px;
+}
+
+
+.titulo{
+    text-align: center;
+    background-color: cornflowerblue;
+    margin-bottom: 20px;
+}
+
+.info {
+    height: 100%;
+    width: 90%;
+    text-align: justify;
+    color:black;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.info legend{
+    font-weight: bold;
+    border-bottom: 1px solid blue;
+    height: 100%;
+}
+
+.enviar{
+    font-size: 20px;
+    
+}
+
+.felicidades{
+    background-color: cornflowerblue;
+    text-align: center;
+    border-color: darkblue solid;
+    width:80%;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 30px;
+    margin-top: 100px;
+}
