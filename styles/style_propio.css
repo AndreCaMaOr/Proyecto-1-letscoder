@@ -89,26 +89,25 @@ nav ul li a{
     font-weight: bold;
     color:white;
     font-size: 30px; 
-     
-    
 }
+
+
 .info button{
     margin-left: 240px; /*80px en pantalla pequeña*/
     height: 30px;
-  
 }
-@media only screen and(min-width:600px) { 
-    .info button {
-        margin-left: 80px;
-    }     
-}  
-
 
 .info button a{
     text-decoration: none;
     color: black;
    
 }
+
+@media only screen and (min-width:600px) { 
+    .info button{
+        margin-left: 60px;
+    }     
+}  
 
 img{
     max-width: 100%;
