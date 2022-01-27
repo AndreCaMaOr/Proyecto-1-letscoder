@@ -93,7 +93,7 @@ nav ul li a{
 
 
 .info button{
-    margin-left: 240px; /*80px en pantalla pequeña*/
+    margin-left: 200px; 
     height: 30px;
 }
 
@@ -105,7 +105,7 @@ nav ul li a{
 
 @media only screen and (min-width:600px) { 
     .info button{
-        margin-left: 60px;
+        margin-left: 160px;
     }     
 }  
 
@@ -192,14 +192,14 @@ h2 {
 .nosotros {
     display: flex;
     width: 80%;
-    height: 50%;
-    flex-direction: row;
+    height: 550px;
+   /* flex-direction: row; no es necesario*/ 
     justify-content:center;
     margin-left: 10%;
     margin-right: 30%;
     background-color: lightblue;
     border: solid; 
-    margin-top: 50px; 
+    margin-top: 100px; 
 }
 
 .redonda {
@@ -217,7 +217,7 @@ h2 {
 .mentor{
     text-align: center;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 100px;
     margin-bottom: 10px;
     margin-right: 10px;   
 }
@@ -375,8 +375,17 @@ form .datospers input{
     text-align: center;
     border-color: darkblue solid;
     width:80%;
+    height: 200px;
     margin-left: 180px;
     margin-right: 180px;
     padding: 30px;
-    margin-top: 100px;
+    margin-top: 150px;
+    font-size: 40px;
+    
+}
+
+.centro{
+    height: 200px;
+    margin-top: 70px;
+    font-size: 20px;
 }
